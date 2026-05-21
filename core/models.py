@@ -79,8 +79,8 @@ class TasksList:
                 self.save()
                 return task
         return None
-
-    def get_all(self):
+    
+    def get_allу(self):
         return self.tasks
     def get_active(self):
         return [task for task in self.tasks if not task.done]
